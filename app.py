@@ -102,4 +102,7 @@ def api_off():
     return "Shutdown Signal Set"
 
 if __name__ == '__main__':
+    print("----------------------------------------")
+    print("★ 系统启动！正在尝试启动 MQTT 线程...")
+    print("----------------------------------------")
     app.run(host='0.0.0.0', port=5000)
